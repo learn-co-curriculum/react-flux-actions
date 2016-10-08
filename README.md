@@ -46,7 +46,7 @@ The following is a basic example of an action that you might see in a ToDo App:
 ```
 The `actionType` property (sometimes also just called `type`) identifies the type
 of action we are dealing with. The importance of defining the type will be come
-clearer later, but for now just keep in mind that if the program can't idenitify
+clearer later, but for now just keep in mind that if the program can't identify
 the type of an action it can't know how to respond. Then also we have a `payload`
 property. As the name suggests, this property holds data, the payload as it were, that is
 being delivered along with the action. Not all actions will require a payload,
@@ -74,7 +74,7 @@ At this point, the Dispatcher will have queued our action. The next step is for
 it to be sent to the stores. Here is where our action's `actionType` property
 becomes so important. Each Store in a Flux Application registers itself
 with the Dispatcher, providing a callback. Within that callback, each store specifies
-the `actionTypes` to which it repsonds. We won't go into this in detail now,
+the `actionTypes` to which it responds. We won't go into this in detail now,
 but the code is usually handled with a simple, efficient, switch statement.
 Something like this:
 
