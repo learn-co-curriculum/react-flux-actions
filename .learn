@@ -5,10 +5,10 @@ tags:
 languages:
   - javascript
 unit:
-  - Components
+  - Actions and Stores
 lesson:
-  - What the Flux?
+  - Actions and Action Creators
 topic:
   - React
 resources:
-  - 1
+  - 2
